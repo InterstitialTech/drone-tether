@@ -437,7 +437,7 @@
 		(path "/885d4159-cec5-469d-bb8f-f10ed3b645aa")
 		(sheetname "Root")
 		(sheetfile "hv-downconverter.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 4.11 -4.11)
 			(end -4.11 -4.11)
@@ -3174,7 +3174,7 @@
 		(path "/69c3410e-1538-46e9-8857-1bf2310607fc")
 		(sheetname "Root")
 		(sheetfile "hv-downconverter.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start 4.11 4.11)
 			(end -4.11 4.11)
@@ -3585,7 +3585,7 @@
 		(path "/33b95ff1-b203-4f03-b626-65cb7290485c")
 		(sheetname "Root")
 		(sheetfile "hv-downconverter.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -4.11 4.26)
 			(end 4.11 4.26)
@@ -4043,7 +4043,7 @@
 		(path "/fc1089d0-fe1e-4231-98c9-0ebce0923a88")
 		(sheetname "Root")
 		(sheetfile "hv-downconverter.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.727064 0.91)
 			(end 0.727064 0.91)
@@ -4191,7 +4191,7 @@
 		(at 169.5 106 90)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "Vin"
+		(property "Reference" "J1"
 			(at 0 -2.33 180)
 			(layer "F.SilkS")
 			(uuid "49336491-d397-4c9b-9bda-9043c6e287d1")
@@ -4450,7 +4450,6 @@
 		(property "Reference" "J3"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "8862e81e-8400-4996-b066-20ae3d7885a4")
 			(effects
 				(font
@@ -4915,7 +4914,7 @@
 		(descr "Capacitor SMD 2220 (5750 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C10"
-			(at -5.5 0 0)
+			(at -5.5 0 360)
 			(layer "F.SilkS")
 			(uuid "cba10689-547e-4e76-89cb-d29612be829f")
 			(effects
@@ -4926,7 +4925,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 0 3.65 0)
+			(at 0 3.65 360)
 			(layer "F.Fab")
 			(uuid "1ca502ce-b625-489a-86fe-c58507a630fb")
 			(effects
@@ -5081,7 +5080,7 @@
 			(uuid "6c51d45c-a910-475f-8d88-c75ac2635e8a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "9d2b8ff7-38df-44a4-b15c-7b9bb6e84c95")
 			(effects
@@ -5127,8 +5126,8 @@
 		(at 183 106)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "Vout"
-			(at 3 0 0)
+		(property "Reference" "J4"
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "439315f5-35d9-452e-b396-c752c1c3431a")
 			(effects
@@ -6591,7 +6590,7 @@
 		(path "/692a77f3-073c-42d5-affe-4bce3182c0e5")
 		(sheetname "Root")
 		(sheetfile "hv-downconverter.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom)
+		(attr smd exclude_from_pos_files)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -7622,76 +7621,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 186 98.8)
-		(end 188 98.8)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "03b3c02c-637a-46d8-a7f3-270b4cb314d4")
-	)
-	(gr_line
-		(start 188 98.75)
-		(end 188 98.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "0dc56b4f-14e3-45ea-9e67-59083452d3c2")
-	)
-	(gr_line
-		(start 188 98.5)
-		(end 188 98)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "0f471f14-64b9-40fe-a773-92c6e8146242")
-	)
-	(gr_line
-		(start 188 99.5)
-		(end 188 100)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "15305234-90d5-4d6c-998a-6a32282ac482")
-	)
-	(gr_line
-		(start 186 99.5)
-		(end 186 100)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "314749d3-06c2-4ff0-8da6-05f53f465e5f")
-	)
-	(gr_line
-		(start 186 99.5)
-		(end 186 99.25)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3e17cad7-0786-4598-a16e-941df32a07fb")
-	)
-	(gr_line
-		(start 186 98.5)
-		(end 186 98.75)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "46b49824-ad74-4dad-8d6c-1ab694686bd4")
-	)
 	(gr_circle
 		(center 174.5 67.5)
 		(end 174.715672 67.506188)
@@ -7703,47 +7632,6 @@
 		(layer "F.SilkS")
 		(uuid "4d807f0e-a0f0-409b-97bd-bc6ce6aa1990")
 	)
-	(gr_line
-		(start 186 99.2)
-		(end 188 99.2)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "7ab1e723-60f3-4ef2-bfb9-33b15c24d938")
-	)
-	(gr_line
-		(start 186 98)
-		(end 186 98.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a29a45d6-f97d-4561-9c0f-8f5674ce358c")
-	)
-	(gr_line
-		(start 188 99.25)
-		(end 188 99.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a3e148b3-3aae-4c8a-a465-00caad74cd40")
-	)
-	(gr_circle
-		(center 187 99)
-		(end 188 100.5)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "f69c9156-941f-4543-8016-586c81b9a138")
-	)
 	(gr_rect
 		(start 162.5 65.25)
 		(end 189.5 107.5)
@@ -7754,18 +7642,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "fe58b1fb-e24c-4283-a8de-6ede84f37689")
-	)
-	(gr_text "DroneTether Buck v1\njomg 9.16.24"
-		(at 163 91.7 270)
-		(layer "F.SilkS")
-		(uuid "fb7038ca-9c9a-4e02-8c13-3110414a98aa")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
 	)
 	(segment
 		(start 171.001679 67.650499)
@@ -7806,6 +7682,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "bcefc29d-39fc-4be3-a859-19a44cc98195")
+	)
+	(segment
+		(start 172.55 90.5)
+		(end 169.965 90.5)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "d27b9905-ef02-4284-8b10-ad4ddac7b3d8")
 	)
 	(segment
 		(start 167.1625 66.75)
@@ -9391,16 +9275,13 @@
 		)
 		(polygon
 			(pts
-				(xy 171 84.75) (xy 171 89.5) (xy 173 89.5) (xy 173 91.5) (xy 171 91.5) (xy 171 107.75) (xy 162.75 107.75)
-				(xy 162.75 84.75)
+				(xy 171 84.75) (xy 171 107.75) (xy 162.75 107.75) (xy 162.75 84.75)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 170.943039 84.769685) (xy 170.988794 84.822489) (xy 171 84.874) (xy 171 89.5) (xy 172.876 89.5)
-				(xy 172.943039 89.519685) (xy 172.988794 89.572489) (xy 173 89.624) (xy 173 91.376) (xy 172.980315 91.443039)
-				(xy 172.927511 91.488794) (xy 172.876 91.5) (xy 171 91.5) (xy 171 107.376) (xy 170.980315 107.443039)
+				(xy 170.943039 84.769685) (xy 170.988794 84.822489) (xy 171 84.874) (xy 171 107.376) (xy 170.980315 107.443039)
 				(xy 170.927511 107.488794) (xy 170.876 107.5) (xy 162.874 107.5) (xy 162.806961 107.480315) (xy 162.761206 107.427511)
 				(xy 162.75 107.376) (xy 162.75 84.874) (xy 162.769685 84.806961) (xy 162.822489 84.761206) (xy 162.874 84.75)
 				(xy 170.876 84.75)
@@ -10187,68 +10068,6 @@
 				(xy 162.711681 67.547661) (xy 162.650358 67.581146) (xy 162.580666 67.576162) (xy 162.524733 67.53429)
 				(xy 162.500316 67.468826) (xy 162.5 67.45998) (xy 162.5 65.374) (xy 162.519685 65.306961) (xy 162.572489 65.261206)
 				(xy 162.624 65.25) (xy 189.376 65.25)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Mask")
-		(uuid "6c5dc887-52d0-48e8-a654-95da25feb22e")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 177.5 96) (xy 179.5 96) (xy 179.5 106.5) (xy 177.5 106.5)
-			)
-		)
-		(filled_polygon
-			(layer "F.Mask")
-			(island)
-			(pts
-				(xy 179.443039 96.019685) (xy 179.488794 96.072489) (xy 179.5 96.124) (xy 179.5 106.376) (xy 179.480315 106.443039)
-				(xy 179.427511 106.488794) (xy 179.376 106.5) (xy 177.624 106.5) (xy 177.556961 106.480315) (xy 177.511206 106.427511)
-				(xy 177.5 106.376) (xy 177.5 96.124) (xy 177.519685 96.056961) (xy 177.572489 96.011206) (xy 177.624 96)
-				(xy 179.376 96)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Mask")
-		(uuid "c36d4b7e-b05a-49e9-8b31-1f53c87f56ac")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.5)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-		)
-		(polygon
-			(pts
-				(xy 185 107) (xy 181.5 107) (xy 181.5 96) (xy 185 96)
-			)
-		)
-		(filled_polygon
-			(layer "F.Mask")
-			(island)
-			(pts
-				(xy 184.943039 96.019685) (xy 184.988794 96.072489) (xy 185 96.124) (xy 185 106.876) (xy 184.980315 106.943039)
-				(xy 184.927511 106.988794) (xy 184.876 107) (xy 181.624 107) (xy 181.556961 106.980315) (xy 181.511206 106.927511)
-				(xy 181.5 106.876) (xy 181.5 96.124) (xy 181.519685 96.056961) (xy 181.572489 96.011206) (xy 181.624 96)
-				(xy 184.876 96)
 			)
 		)
 	)

@@ -466,7 +466,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "hv-downconverter.kicad_pro",
+    "filename": "hvhf-downconverter.kicad_pro",
     "version": 1
   },
   "net_settings": {
