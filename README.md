@@ -1,2 +1,2 @@
 # drone-tether
-![board](Capture.png)
+![board](Capture.PNG)
